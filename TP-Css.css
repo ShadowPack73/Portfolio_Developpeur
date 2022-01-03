@@ -1,3 +1,4 @@
+#raccourcie
 html{
     font-family: 'Courier new', monospace;
     font-weight: normal;
@@ -23,6 +24,7 @@ body{
     float: left;
 }
 
+#bar nav
 nav{
     margin: 0;
     padding: 0;
@@ -61,6 +63,7 @@ li a {
     padding: 2;
 }
 
+#balise
 h1{
     margin: 0;
     padding: 0;
