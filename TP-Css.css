@@ -1,0 +1,131 @@
+html{
+    font-family: 'Courier new', monospace;
+    font-weight: normal;
+    font-size: 100%;
+}
+
+body{
+    font: 1.6rem sans-serif;
+    margin: 0;  
+}
+
+:root{
+    --color-blackground: rgb(0, 0, 0);
+    --color-background: rgba(50, 115, 155);
+    --color-header-text: #fff;
+}
+
+.fit-picture1{
+    width: 200px;
+}
+
+.left{
+    float: left;
+}
+
+nav{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    font-weight: normal;
+    color: var(--color-header-text);
+    background-color: var(--color-blackground);
+    line-height: 6.0rem;
+    position: sticky;
+    top: 0;
+    max-width: 100%;
+}
+
+nav ul :hover{
+    list-style-type: circle; 
+    color: blue;
+}
+
+nav>ul{ 
+    list-style: inside;
+    list-style-type: square;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: block;
+}
+
+nav>ul>li{
+    float: left;
+    padding: 0 2% 0 2%;
+}
+
+li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 2;
+}
+
+h1{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    font-weight: normal;
+    color: var(--color-header-text);
+    background-color: var(--color-background);
+    line-height: 6.0rem;
+    text-align: center;
+}
+
+h2{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    font-weight: normal;
+    color: var(--color-header-text);
+    background-color: var(--color-background);
+    line-height: 6.0rem;
+    max-width: 90.0rem;
+    padding: 1.0rem;
+    margin: 5.0rem auto 1.0rem;
+    border-style: solid;
+    border-width: 2px;
+}
+
+h3{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    font-weight: normal;
+    word-spacing: 50px;
+    color: var(--color-header-text);
+    background-color: var(--color-blackground);
+    line-height: 6.0rem;
+}
+
+p{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    font-weight: normal;
+    max-width: 90.0rem;
+    padding: 1.0rem;
+    margin: 5.0rem auto 1.0rem;
+    border-style: solid;
+    border-width: 2px;
+}
+
+
+main{
+    max-width: 90.0rem;
+    padding: 1.0rem;
+    margin: 5.0rem auto 1.0rem;
+    border-style: solid;
+    border-width: 2px;
+}
+
+footer{
+    max-width: 90.0rem;
+    padding: 1.0rem;
+    margin: 5.0rem auto 1.0rem;
+    text-align: center;
+}
+
+div{
+    text-align : center;
+}
